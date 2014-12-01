@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E2226691A2C3BFA00EEF47B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2226681A2C3BFA00EEF47B /* main.m */; };
+		3E22266C1A2C3BFA00EEF47B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E22266B1A2C3BFA00EEF47B /* AppDelegate.m */; };
+		3E2226721A2C3BFA00EEF47B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2226701A2C3BFA00EEF47B /* Main.storyboard */; };
+		3E2226741A2C3BFA00EEF47B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2226731A2C3BFA00EEF47B /* Images.xcassets */; };
+		3E2226771A2C3BFA00EEF47B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E2226751A2C3BFA00EEF47B /* LaunchScreen.xib */; };
+		3E2226831A2C3BFA00EEF47B /* VOSideslipWithAutoLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2226821A2C3BFA00EEF47B /* VOSideslipWithAutoLayoutTests.m */; };
+		3E22268E1A2C3D7700EEF47B /* VOCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E22268D1A2C3D7700EEF47B /* VOCenterViewController.m */; };
+		3E2226941A2C3DA600EEF47B /* VORightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2226931A2C3DA600EEF47B /* VORightViewController.m */; };
+		3E2226971A2C3DB700EEF47B /* VOSideslipController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2226961A2C3DB700EEF47B /* VOSideslipController.m */; };
+		3EDEA2021A2C689400BA7A80 /* VOLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDEA2011A2C689400BA7A80 /* VOLeftViewController.m */; };
+		3EDEA2061A2C68BD00BA7A80 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDEA2051A2C68BD00BA7A80 /* UIImage+ImageEffects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E22267D1A2C3BFA00EEF47B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E22265B1A2C3BFA00EEF47B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E2226621A2C3BFA00EEF47B;
+			remoteInfo = VOSideslipWithAutoLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E2226631A2C3BFA00EEF47B /* VOSideslipWithAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VOSideslipWithAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2226671A2C3BFA00EEF47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2226681A2C3BFA00EEF47B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E22266A1A2C3BFA00EEF47B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E22266B1A2C3BFA00EEF47B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E2226711A2C3BFA00EEF47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E2226731A2C3BFA00EEF47B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3E2226761A2C3BFA00EEF47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3E22267C1A2C3BFA00EEF47B /* VOSideslipWithAutoLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VOSideslipWithAutoLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2226811A2C3BFA00EEF47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2226821A2C3BFA00EEF47B /* VOSideslipWithAutoLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VOSideslipWithAutoLayoutTests.m; sourceTree = "<group>"; };
+		3E22268C1A2C3D7700EEF47B /* VOCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOCenterViewController.h; sourceTree = "<group>"; };
+		3E22268D1A2C3D7700EEF47B /* VOCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOCenterViewController.m; sourceTree = "<group>"; };
+		3E2226921A2C3DA600EEF47B /* VORightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VORightViewController.h; sourceTree = "<group>"; };
+		3E2226931A2C3DA600EEF47B /* VORightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VORightViewController.m; sourceTree = "<group>"; };
+		3E2226951A2C3DB700EEF47B /* VOSideslipController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOSideslipController.h; sourceTree = "<group>"; };
+		3E2226961A2C3DB700EEF47B /* VOSideslipController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOSideslipController.m; sourceTree = "<group>"; };
+		3EDEA2001A2C689400BA7A80 /* VOLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOLeftViewController.h; sourceTree = "<group>"; };
+		3EDEA2011A2C689400BA7A80 /* VOLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOLeftViewController.m; sourceTree = "<group>"; };
+		3EDEA2041A2C68BD00BA7A80 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		3EDEA2051A2C68BD00BA7A80 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E2226601A2C3BFA00EEF47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2226791A2C3BFA00EEF47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E22265A1A2C3BFA00EEF47B = {
+			isa = PBXGroup;
+			children = (
+				3E2226651A2C3BFA00EEF47B /* VOSideslipWithAutoLayout */,
+				3E22267F1A2C3BFA00EEF47B /* VOSideslipWithAutoLayoutTests */,
+				3E2226641A2C3BFA00EEF47B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E2226641A2C3BFA00EEF47B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E2226631A2C3BFA00EEF47B /* VOSideslipWithAutoLayout.app */,
+				3E22267C1A2C3BFA00EEF47B /* VOSideslipWithAutoLayoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E2226651A2C3BFA00EEF47B /* VOSideslipWithAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				3EDEA2031A2C68BD00BA7A80 /* UIImage+ImageEffects */,
+				3E22266A1A2C3BFA00EEF47B /* AppDelegate.h */,
+				3E22266B1A2C3BFA00EEF47B /* AppDelegate.m */,
+				3E22268C1A2C3D7700EEF47B /* VOCenterViewController.h */,
+				3E22268D1A2C3D7700EEF47B /* VOCenterViewController.m */,
+				3EDEA2001A2C689400BA7A80 /* VOLeftViewController.h */,
+				3EDEA2011A2C689400BA7A80 /* VOLeftViewController.m */,
+				3E2226921A2C3DA600EEF47B /* VORightViewController.h */,
+				3E2226931A2C3DA600EEF47B /* VORightViewController.m */,
+				3E2226951A2C3DB700EEF47B /* VOSideslipController.h */,
+				3E2226961A2C3DB700EEF47B /* VOSideslipController.m */,
+				3E2226701A2C3BFA00EEF47B /* Main.storyboard */,
+				3E2226731A2C3BFA00EEF47B /* Images.xcassets */,
+				3E2226751A2C3BFA00EEF47B /* LaunchScreen.xib */,
+				3E2226661A2C3BFA00EEF47B /* Supporting Files */,
+			);
+			path = VOSideslipWithAutoLayout;
+			sourceTree = "<group>";
+		};
+		3E2226661A2C3BFA00EEF47B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E2226671A2C3BFA00EEF47B /* Info.plist */,
+				3E2226681A2C3BFA00EEF47B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E22267F1A2C3BFA00EEF47B /* VOSideslipWithAutoLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E2226821A2C3BFA00EEF47B /* VOSideslipWithAutoLayoutTests.m */,
+				3E2226801A2C3BFA00EEF47B /* Supporting Files */,
+			);
+			path = VOSideslipWithAutoLayoutTests;
+			sourceTree = "<group>";
+		};
+		3E2226801A2C3BFA00EEF47B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E2226811A2C3BFA00EEF47B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EDEA2031A2C68BD00BA7A80 /* UIImage+ImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				3EDEA2041A2C68BD00BA7A80 /* UIImage+ImageEffects.h */,
+				3EDEA2051A2C68BD00BA7A80 /* UIImage+ImageEffects.m */,
+			);
+			path = "UIImage+ImageEffects";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E2226621A2C3BFA00EEF47B /* VOSideslipWithAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2226861A2C3BFA00EEF47B /* Build configuration list for PBXNativeTarget "VOSideslipWithAutoLayout" */;
+			buildPhases = (
+				3E22265F1A2C3BFA00EEF47B /* Sources */,
+				3E2226601A2C3BFA00EEF47B /* Frameworks */,
+				3E2226611A2C3BFA00EEF47B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VOSideslipWithAutoLayout;
+			productName = VOSideslipWithAutoLayout;
+			productReference = 3E2226631A2C3BFA00EEF47B /* VOSideslipWithAutoLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E22267B1A2C3BFA00EEF47B /* VOSideslipWithAutoLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2226891A2C3BFA00EEF47B /* Build configuration list for PBXNativeTarget "VOSideslipWithAutoLayoutTests" */;
+			buildPhases = (
+				3E2226781A2C3BFA00EEF47B /* Sources */,
+				3E2226791A2C3BFA00EEF47B /* Frameworks */,
+				3E22267A1A2C3BFA00EEF47B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E22267E1A2C3BFA00EEF47B /* PBXTargetDependency */,
+			);
+			name = VOSideslipWithAutoLayoutTests;
+			productName = VOSideslipWithAutoLayoutTests;
+			productReference = 3E22267C1A2C3BFA00EEF47B /* VOSideslipWithAutoLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E22265B1A2C3BFA00EEF47B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = valo;
+				TargetAttributes = {
+					3E2226621A2C3BFA00EEF47B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					3E22267B1A2C3BFA00EEF47B = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 3E2226621A2C3BFA00EEF47B;
+					};
+				};
+			};
+			buildConfigurationList = 3E22265E1A2C3BFA00EEF47B /* Build configuration list for PBXProject "VOSideslipWithAutoLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E22265A1A2C3BFA00EEF47B;
+			productRefGroup = 3E2226641A2C3BFA00EEF47B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E2226621A2C3BFA00EEF47B /* VOSideslipWithAutoLayout */,
+				3E22267B1A2C3BFA00EEF47B /* VOSideslipWithAutoLayoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E2226611A2C3BFA00EEF47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2226721A2C3BFA00EEF47B /* Main.storyboard in Resources */,
+				3E2226771A2C3BFA00EEF47B /* LaunchScreen.xib in Resources */,
+				3E2226741A2C3BFA00EEF47B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E22267A1A2C3BFA00EEF47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E22265F1A2C3BFA00EEF47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDEA2021A2C689400BA7A80 /* VOLeftViewController.m in Sources */,
+				3E22268E1A2C3D7700EEF47B /* VOCenterViewController.m in Sources */,
+				3EDEA2061A2C68BD00BA7A80 /* UIImage+ImageEffects.m in Sources */,
+				3E22266C1A2C3BFA00EEF47B /* AppDelegate.m in Sources */,
+				3E2226691A2C3BFA00EEF47B /* main.m in Sources */,
+				3E2226941A2C3DA600EEF47B /* VORightViewController.m in Sources */,
+				3E2226971A2C3DB700EEF47B /* VOSideslipController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2226781A2C3BFA00EEF47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2226831A2C3BFA00EEF47B /* VOSideslipWithAutoLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E22267E1A2C3BFA00EEF47B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E2226621A2C3BFA00EEF47B /* VOSideslipWithAutoLayout */;
+			targetProxy = 3E22267D1A2C3BFA00EEF47B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E2226701A2C3BFA00EEF47B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E2226711A2C3BFA00EEF47B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E2226751A2C3BFA00EEF47B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E2226761A2C3BFA00EEF47B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E2226841A2C3BFA00EEF47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E2226851A2C3BFA00EEF47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E2226871A2C3BFA00EEF47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VOSideslipWithAutoLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E2226881A2C3BFA00EEF47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VOSideslipWithAutoLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3E22268A1A2C3BFA00EEF47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VOSideslipWithAutoLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VOSideslipWithAutoLayout.app/VOSideslipWithAutoLayout";
+			};
+			name = Debug;
+		};
+		3E22268B1A2C3BFA00EEF47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VOSideslipWithAutoLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VOSideslipWithAutoLayout.app/VOSideslipWithAutoLayout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E22265E1A2C3BFA00EEF47B /* Build configuration list for PBXProject "VOSideslipWithAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2226841A2C3BFA00EEF47B /* Debug */,
+				3E2226851A2C3BFA00EEF47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2226861A2C3BFA00EEF47B /* Build configuration list for PBXNativeTarget "VOSideslipWithAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2226871A2C3BFA00EEF47B /* Debug */,
+				3E2226881A2C3BFA00EEF47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2226891A2C3BFA00EEF47B /* Build configuration list for PBXNativeTarget "VOSideslipWithAutoLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E22268A1A2C3BFA00EEF47B /* Debug */,
+				3E22268B1A2C3BFA00EEF47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E22265B1A2C3BFA00EEF47B /* Project object */;
+}
